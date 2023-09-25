@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JS task 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        function sortStringAlphabetically(inputString) {
+  const charArray = inputString.split('');
+  const sortedArray = charArray.sort();
+  const sortedString = sortedArray.join('');
+  return sortedString;
+}
+const inputString = 'webmaster';
+const sortedOutput = sortStringAlphabetically(inputString);
+console.log(sortedOutput); 
+document.write("stringt:"+inputString+"<br>");
+document.write("output:"+sortedOutput);
+    </script>
+</body>
+</html>
